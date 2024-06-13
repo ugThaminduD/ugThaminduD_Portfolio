@@ -48,7 +48,7 @@ const HeroContent = () => {
         >
           Welcome to the portfolio of UG Thamindu Dilhara, a dedicated Full Stack Software Engineer 
           with a wealth of experience across web, mobile, and software development landscapes. 
-          Dive into my diverse range of projects and discover the innovative solutions I've crafted. 
+          Dive into my diverse range of projects and discover the innovative solutions I&apos;ve crafted. 
           From intuitive mobile applications to dynamic websites and robust software systems, 
           my work is a testament to my passion for technology and commitment to excellence. 
           Explore my portfolio to see how my skills and creativity come together to deliver high-quality, impactful digital experiences.
