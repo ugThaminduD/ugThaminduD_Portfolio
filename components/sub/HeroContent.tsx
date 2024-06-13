@@ -46,14 +46,21 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website,
-          Mobile, and Software development. Check out my projects and skills.
+          Welcome to the portfolio of UG Thamindu Dilhara, a dedicated Full Stack Software Engineer 
+          with a wealth of experience across web, mobile, and software development landscapes. 
+          Dive into my diverse range of projects and discover the innovative solutions I've crafted. 
+          From intuitive mobile applications to dynamic websites and robust software systems, 
+          my work is a testament to my passion for technology and commitment to excellence. 
+          Explore my portfolio to see how my skills and creativity come together to deliver high-quality, impactful digital experiences.
+          
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
-          Learn More!
+          <a href="#resume" className="cursor-pointer">
+            Resume
+          </a>
         </motion.a>
       </div>
 
