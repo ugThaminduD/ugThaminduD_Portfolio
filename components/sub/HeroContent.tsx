@@ -32,14 +32,21 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.5)}
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
-          <span>
+          {/* <span>
             Providing
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
               the best{" "}
             </span>
             project exprience
+          </span> */}
+
+          <span >
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+              UG Thamindu Dilhara
+            </span>
           </span>
+          
         </motion.div>
 
         <motion.p
@@ -56,11 +63,14 @@ const HeroContent = () => {
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
+          // href="https://drive.google.com/file/d/1ZKD-iX5s38kbnWvtUtcxigoa1fWSdJAC/view?usp=sharing"   //// UG Thamindu Dilhara - Resume 2024
+          href="https://drive.google.com/file/d/1PKY1BC2VvswIYqomo4U6VtI_oon0nmHw/view?usp=sharing"      //// CV
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
-          <a href="#resume" className="cursor-pointer">
+          Resume
+          {/* <a href="#resume" className="cursor-pointer">
             Resume
-          </a>
+          </a> */}
         </motion.a>
       </div>
 
