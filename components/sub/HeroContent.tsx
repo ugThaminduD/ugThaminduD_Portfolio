@@ -8,7 +8,35 @@ import {
   slideInFromTop,
 } from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
+// import ServiceCard from "../sub/ServiceCard";
 import Image from "next/image";
+
+
+interface Props {
+  src: string;
+  title: string;
+}
+
+const ServiceCard1 = ({ src, title }: Props) => {
+  return (
+    <div className="w-[full] h-[full] flex items-center justify-center relative overflow-hidden rounded-lg shadow-lg border border-[white] bg-gradient-to-br from-purple-800 to-cyan-800">
+      <div className="w-[full] h-[full] flex items-center justify-center ">
+        <Image
+          src={src}
+          alt={title}
+          width={1000}
+          height={1000}
+          className="w-[auto] h-[auto] object-contain "
+        />
+      </div>
+
+      <div className="relative">
+        <h1 className="text-2xl font-semibold text-white">{title}</h1>
+      </div>
+    </div>
+  );
+};
+
 
 const HeroContent = () => {
   return (
@@ -32,18 +60,20 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.5)}
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
-          {/* <span>
-            Providing
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-              {" "}
-              the best{" "}
-            </span>
-            project exprience
-          </span> */}
+          
 
           <span >
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               UG Thamindu Dilhara
+            </span>
+          </span>
+
+          <span className="h-[auto] w-[300px]">
+            <span>
+              <ServiceCard1
+                src="/CV.jpg"
+                title=""
+              />
             </span>
           </span>
           
@@ -51,7 +81,7 @@ const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px]"
+          className="text-lg text-gray-400 max-w-[600px]"
         >
           Welcome to the portfolio of UG Thamindu Dilhara, a dedicated Full Stack Software Engineer 
           with a wealth of experience across web, mobile, and software development landscapes. 
