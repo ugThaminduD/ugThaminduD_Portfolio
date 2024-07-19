@@ -98,9 +98,7 @@ const   HeroContent = () => {
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
           Resume
-          {/* <a href="#resume" className="cursor-pointer">
-            Resume
-          </a> */}
+          
         </motion.a>
       </div>
 
