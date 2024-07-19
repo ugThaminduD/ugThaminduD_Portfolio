@@ -38,7 +38,7 @@ const ServiceCard1 = ({ src, title }: Props) => {
 };
 
 
-const HeroContent = () => {
+const   HeroContent = () => {
   return (
     <motion.div
       initial="hidden"

@@ -25,7 +25,7 @@ const Navbar = () => {
           </span>
         </a>
 
-        <div className="w-[500px] h-auto flex flex-row items-center justify-between md:mr-20 bg-gradient-to-r from-purple-500 to-cyan-500 rounded-full text-white font-bold">
+        {/* <div className="w-[500px] h-auto flex flex-row items-center justify-between md:mr-20 bg-gradient-to-r from-purple-500 to-cyan-500 rounded-full text-white font-bold">
           <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] ml-[15px] mr-[15px] px-[20px] py-[10px] rounded-full ">
             <a href="#about-me" className="cursor-pointer">
               About me
@@ -37,7 +37,7 @@ const Navbar = () => {
               Projects
             </a>
           </div>
-        </div>
+        </div> */}
 
         <div className="flex flex-row gap-5">
           {Socials.map((social) => (
