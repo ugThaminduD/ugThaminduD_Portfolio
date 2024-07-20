@@ -37,7 +37,7 @@ const Footer = () => {
                         <FaInstagram />
                         <span className="text-[15px] ml-[6px]">Instagram</span>    
                     </p>
-                    <a href="www.linkedin.com/in/ugThaminduDil" className="flex flex-row items-center my-[15px] cursor-pointer">
+                    <a href="www.linkedin.com/in/ugthamindudil" className="flex flex-row items-center my-[15px] cursor-pointer">
                         <FaLinkedin />
                         <span className="text-[15px] ml-[6px]">Linkedin</span>    
                     </a>
@@ -59,7 +59,7 @@ const Footer = () => {
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                   
-                        <span className="text-[15px] ml-[6px]">#@gmail.com</span>    
+                        <span className="text-[15px] ml-[6px]">ugthamindudilaa@gmail.com</span>    
                     </p>
                 </div>
 
