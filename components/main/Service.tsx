@@ -9,7 +9,7 @@ import Image from "next/image";
 
 const Service = () => {
   return (
-    <div className="flex flex-row relative items-center justify-center min-h-screen w-full h-full">
+    <div className="flex flex-row relative items-center justify-center min-h-screen w-full h-full space-y-20">
       <div className="absolute w-auto h-auto top-0 z-[5]">
         <motion.div
           variants={slideInFromTop}
@@ -24,7 +24,7 @@ const Service = () => {
         </motion.div>
       </div>
       
-      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 md:space-x-4">
         <ServiceCard
           src="/ps.png"
           title="Web Development"
@@ -41,7 +41,11 @@ const Service = () => {
           description="Facing a technical challenge? Let me help you navigate and solve complex issues with innovative solutions. My strong analytical skills and experience in debugging and optimization ensure that your project stays on track and runs smoothly."
         />
       </div>
-      
+      {/* <div className="absolute z-[20] bottom-[1px] px-[5px]">
+        <div className="cursive text-[20px] font-medium text-center text-gray-300">
+          Secure your data with end-to-end encryption
+        </div>
+      </div> */}
 
       {/* <div className="flex flex-col items-center justify-center translate-y-[-50px] absolute z-[20] w-auto h-auto">
         <div className="flex flex-col items-center group cursor-pointer w-auto h-auto">
@@ -65,11 +69,7 @@ const Service = () => {
           <h1 className="Welcome-text text-[12px]">Encryption</h1>
         </div>
       </div> */}
-      <div className="absolute z-[20] bottom-[10px] px-[5px]">
-        <div className="cursive text-[20px] font-medium text-center text-gray-300">
-          Secure your data with end-to-end encryption
-        </div>
-      </div>
+      
 
       {/* <div className="w-full flex items-start justify-center absolute">
         <video
