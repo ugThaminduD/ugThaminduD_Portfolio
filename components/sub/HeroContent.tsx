@@ -93,9 +93,7 @@ const   HeroContent = () => {
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
-          // href="https://drive.google.com/file/d/1ZKD-iX5s38kbnWvtUtcxigoa1fWSdJAC/view?usp=sharing"   //// UG Thamindu Dilhara - Resume 2024
-          // href="https://drive.google.com/file/d/1PKY1BC2VvswIYqomo4U6VtI_oon0nmHw/view?usp=sharing"      //// CV
-          href="https://drive.google.com/file/d/1V1215ZODNumZZc-lfIVi-UcyROBXvyug/view?usp=sharing"
+          href="https://drive.google.com/file/d/1UvWnghODXgaYe49M7lj1nRXsHfOXvZyM/view?usp=sharing"
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
           Resume
